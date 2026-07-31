@@ -18,7 +18,7 @@ That trusts the signing key and adds the repository. Name packages after it to
 install them at the same time:
 
 ```bash
-curl -fsSL https://kodebs.github.io/apt/setup.sh | sudo sh -s kodebs-server-manager
+curl -fsSL https://kodebs.github.io/apt/setup.sh | sudo sh -s <package> [<package>...]
 ```
 
 <details>
@@ -43,6 +43,15 @@ sudo apt update
 
 </details>
 
+## What is in here
+
+| Application | Package | Install |
+| --- | --- | --- |
+| [KodeBS Server Manager](https://github.com/KodeBS/server-manager) — manage a local server: monitoring, Docker, ports, Nginx, firewall, media sharing, direct link, background tasks | `kodebs-server-manager` | `sudo apt install kodebs-server-manager` |
+
+**https://kodebs.github.io/apt** always shows what is actually published, with
+current versions. This table is the human-readable version of it.
+
 ## Using it
 
 Install anything by name, and update it with everything else:
@@ -51,8 +60,6 @@ Install anything by name, and update it with everything else:
 sudo apt install <package>
 sudo apt upgrade
 ```
-
-**https://kodebs.github.io/apt** lists what is currently available.
 
 `amd64` only. The `.sources` (deb822) format works on Ubuntu 22.04 through 26.04
 alike — verified by installing from this repository inside both a 22.04 and a
