@@ -45,12 +45,22 @@ sudo apt update
 
 ## What is in here
 
-| Application | Package | Install |
-| --- | --- | --- |
-| [KodeBS Server Manager](https://github.com/KodeBS/server-manager) — manage a local server: monitoring, Docker, ports, Nginx, firewall, media sharing, direct link, background tasks | `kodebs-server-manager` | `sudo apt install kodebs-server-manager` |
+### KodeBS Server Manager
 
-**https://kodebs.github.io/apt** always shows what is actually published, with
-current versions. This table is the human-readable version of it.
+Manage a local server from one place — system monitoring, Docker, ports, Nginx,
+the firewall, media sharing over its own Wi-Fi, a direct LAN link between two
+machines, and background tasks.
+
+```bash
+sudo apt install kodebs-server-manager
+```
+
+[Source and documentation](https://github.com/KodeBS/server-manager)
+
+---
+
+**https://kodebs.github.io/apt** shows what is actually published right now, with
+current versions.
 
 ## Using it
 
