@@ -8,6 +8,22 @@ installs and updates through `apt`, like anything else on the machine.
 
 ## Set up
 
+One command:
+
+```bash
+curl -fsSL https://kodebs.github.io/apt/setup.sh | sudo sh
+```
+
+That trusts the signing key and adds the repository. Name packages after it to
+install them at the same time:
+
+```bash
+curl -fsSL https://kodebs.github.io/apt/setup.sh | sudo sh -s kodebs-server-manager
+```
+
+<details>
+<summary>Rather not pipe a script into a root shell? Do the same by hand.</summary>
+
 ```bash
 sudo install -d -m 0755 /etc/apt/keyrings
 curl -fsSL https://kodebs.github.io/apt/kodebs.asc | \
@@ -25,7 +41,11 @@ EOF
 sudo apt update
 ```
 
-Then install anything by name, and update it with everything else:
+</details>
+
+## Using it
+
+Install anything by name, and update it with everything else:
 
 ```bash
 sudo apt install <package>
@@ -34,9 +54,9 @@ sudo apt upgrade
 
 **https://kodebs.github.io/apt** lists what is currently available.
 
-`amd64` only. The `.sources` format and `/etc/apt/keyrings` are what Ubuntu 24.04
-and later expect; on 22.04 the same repository works written as a one-line
-`.list` file with `signed-by=`.
+`amd64` only. The `.sources` (deb822) format works on Ubuntu 22.04 through 26.04
+alike — verified by installing from this repository inside both a 22.04 and a
+24.04 container.
 
 ## Removing it
 
@@ -56,6 +76,7 @@ Adding a second or a tenth package needs no change to this repository.
 
 ```
 kodebs.asc                     the public half of the signing key
+setup.sh                       generated; the one-command installer above
 index.html                     generated; lists every package currently held
 pool/main/<initial>/<name>/    the .deb files themselves
 dists/stable/                  Release, InRelease, Release.gpg
