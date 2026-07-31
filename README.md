@@ -1,10 +1,12 @@
 # KodeBS APT repository
 
-The package repository for
-[KodeBS Server Manager](https://github.com/KodeBS/server-manager), served over
-GitHub Pages at **https://kodebs.github.io/apt**.
+Debian packages published by KodeBS, served over GitHub Pages at
+**https://kodebs.github.io/apt**.
 
-## Installing the app
+Add it once and everything KodeBS ships — applications, scripts, tooling —
+installs and updates through `apt`, like anything else on the machine.
+
+## Set up
 
 ```bash
 sudo install -d -m 0755 /etc/apt/keyrings
@@ -20,25 +22,48 @@ Architectures: amd64
 Signed-By: /etc/apt/keyrings/kodebs.asc
 EOF
 
-sudo apt update && sudo apt install kodebs-server-manager
+sudo apt update
 ```
 
-New versions arrive with `sudo apt upgrade`.
+Then install anything by name, and update it with everything else:
 
-## About this repository
-
-Everything here is generated. Nothing is edited by hand.
-
-Tagging a version in `KodeBS/server-manager` builds the `.deb`, and its workflow
-then runs `scripts/publish-apt.sh` from that repo to fold the package in, rebuild
-the indexes, sign them and push the result here.
-
-```
-kodebs.asc                              the public half of the signing key
-pool/main/k/kodebs-server-manager/      the .deb files themselves
-dists/stable/                           Release, InRelease, Release.gpg
-dists/stable/main/binary-amd64/         Packages, Packages.gz
+```bash
+sudo apt install <package>
+sudo apt upgrade
 ```
 
-`amd64` only. The signing key's private half lives in that repository's Actions
-secrets and nowhere else.
+**https://kodebs.github.io/apt** lists what is currently available.
+
+`amd64` only. The `.sources` format and `/etc/apt/keyrings` are what Ubuntu 24.04
+and later expect; on 22.04 the same repository works written as a one-line
+`.list` file with `signed-by=`.
+
+## Removing it
+
+```bash
+sudo rm /etc/apt/sources.list.d/kodebs.sources /etc/apt/keyrings/kodebs.asc
+sudo apt update
+```
+
+## How this repository is maintained
+
+**Nothing here is edited by hand.** Every file is generated.
+
+Each source project owns its own packaging and pushes here from its release
+workflow: it builds the `.deb`, then runs `scripts/publish-apt.sh` to fold the
+package into the pool, rebuild the indexes, sign them, and commit the result.
+Adding a second or a tenth package needs no change to this repository.
+
+```
+kodebs.asc                     the public half of the signing key
+index.html                     generated; lists every package currently held
+pool/main/<initial>/<name>/    the .deb files themselves
+dists/stable/                  Release, InRelease, Release.gpg
+dists/stable/main/binary-amd64/  Packages, Packages.gz
+```
+
+The signing key's private half lives in the publishing project's Actions secrets
+and nowhere else.
+
+Currently published from:
+[KodeBS/server-manager](https://github.com/KodeBS/server-manager).
