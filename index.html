@@ -4,13 +4,59 @@
 <title>KodeBS APT repository</title>
 <style>
   :root { color-scheme: light dark; }
-  body { margin:0 auto; padding:3rem 1.25rem; max-width:44rem; line-height:1.55;
+  body { margin:0 auto; padding:3rem 1.25rem 5rem; max-width:46rem; line-height:1.55;
          font-family:system-ui,-apple-system,"Segoe UI",Ubuntu,sans-serif; }
-  h1 { font-size:1.5rem; letter-spacing:-.02em; margin:0 0 .4rem; }
-  p { opacity:.75; }
+  h1 { font-size:1.5rem; letter-spacing:-.02em; margin:0 0 .35rem; }
+  p.sub { margin:0 0 2rem; opacity:.7; }
+  h2 { font-size:1rem; margin:2.25rem 0 .6rem; }
+  pre { overflow-x:auto; padding:1rem; border-radius:.6rem;
+        background:color-mix(in srgb, currentColor 7%, transparent); font-size:.82rem; }
+  code { font-family:ui-monospace,Menlo,monospace; }
+  table { border-collapse:collapse; width:100%; font-size:.88rem; }
+  th { text-align:left; font-size:.72rem; text-transform:uppercase; letter-spacing:.08em;
+       opacity:.6; padding:0 .75rem .5rem 0; font-weight:600; }
+  td { padding:.5rem .75rem .5rem 0; border-top:1px solid color-mix(in srgb, currentColor 14%, transparent);
+       vertical-align:top; }
+  td:nth-child(2) { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  footer { margin-top:3rem; font-size:.8rem; opacity:.6; }
   a { color:inherit; }
 </style>
+
 <h1>KodeBS APT repository</h1>
-<p>Debian packages for KodeBS software. Nothing published yet — this page is
-replaced with the package list and install instructions the first time a version
-is tagged.</p>
+<p class="sub">Debian packages for KodeBS software · amd64 · Ubuntu 22.04 and later.</p>
+
+<h2>Set up, once</h2>
+<p>Trust the signing key and add the repository:</p>
+<pre><code>sudo install -d -m 0755 /etc/apt/keyrings
+curl -fsSL https://kodebs.github.io/apt/kodebs.asc | sudo tee /etc/apt/keyrings/kodebs.asc > /dev/null
+
+sudo tee /etc/apt/sources.list.d/kodebs.sources > /dev/null &lt;&lt;'EOF'
+Types: deb
+URIs: https://kodebs.github.io/apt
+Suites: stable
+Components: main
+Architectures: amd64
+Signed-By: /etc/apt/keyrings/kodebs.asc
+EOF
+
+sudo apt update</code></pre>
+
+<h2>Available packages</h2>
+<table>
+  <thead><tr><th>Package</th><th>Version</th><th>Description</th></tr></thead>
+  <tbody>
+<tr><td><code>kodebs-server-manager</code></td><td>0.0.5-1</td><td>A lightweight Ubuntu desktop application for managing local servers and developer tooling</td></tr>
+  </tbody>
+</table>
+<p>Install any of them by name:</p>
+<pre><code>sudo apt install kodebs-server-manager</code></pre>
+
+<h2>Update and remove</h2>
+<p>Updates arrive with everything else on the machine:</p>
+<pre><code>sudo apt upgrade</code></pre>
+<pre><code>sudo apt remove &lt;package&gt;
+
+# to drop the repository itself
+sudo rm /etc/apt/sources.list.d/kodebs.sources /etc/apt/keyrings/kodebs.asc</code></pre>
+
+<footer>Rebuilt whenever a version is tagged. Last change: kodebs-server-manager 0.0.5-1.</footer>

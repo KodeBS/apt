@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: KodeBS
+Label: KodeBS
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Debian packages published by KodeBS
+Date: Fri, 31 Jul 2026 08:01:56 UTC
+MD5Sum:
+ 949c5500f32c001310d38cbca5dce9fd              647 main/binary-amd64/Packages
+ 58d1e32a0b6e1b7e7eedb2c6bfcc4741              446 main/binary-amd64/Packages.gz
+SHA256:
+ 0822ceb78e2a2cd0ef3e86a675aedc17defbfbcf504bdb79f7ed4258ea8d8a0e              647 main/binary-amd64/Packages
+ 88413b970c5a520059c571530c8b41176a871631c05a34e709e469ba0308fd3b              446 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE2hMxpKf3OOUwxPzIf/7DaRzDqS0FAmpsVnQACgkQf/7DaRzD
+qS08yw//XMvREPOKCI+txm6G1EE/7gB1LigP5gc7BiG9CxFgCkLFqcM3NXS4C/3o
+vENBzjHB0IC0D7NjSl1ZGVxO9eeWLAVqXFz3W91mqHdpNgHYZ4oU32R3H46CQL0+
+jz/ROBYlKdF8Q8TUByU0MBMjDFML6vBeo4u8300SFEhUxOujmDcZByaLaG9Qd5yg
+99PGY5R3C8gGzmlpWcSRyJzsDNO0OpfzByLhJxCA6XkBPWYMGgr85XXpvvlJrZxr
+iicavTG0Toozx6LgzCOoaLPoz12ywalnNBOq2q1ImefC6KnCj2VLn9W+7kw7b8Dr
+F/LuVtb2rUu6aABba5dafAB24Oby4c3xUPUkm7LDRgCcVq+JWFPrJox8Nvi2zcwT
+BxuK5Vp8JekpAkjoKwXS+MZPaucqscbvKudyzIkhaYZyC8rDM7tM7Xjg5v/WoEql
+/DaNXxqOSbSEuGksE4aDXd0tTvUOYlFrbV0oUI787j6Wt9YCKeHcUD0toq5wHWhi
+QZclMl5BIt3FHHGvy96//BoDEGMSOvO9LyN2hgsNwa63Vm6hPSB87rBp8IMMIQ83
+bVmYJxF/nxOr57wYZAk93jed2fFXKP1dTg/oQmvT4OkmLIHatF2LyLUGbaNkrIWm
+LjbFtZapXMCuJW3iOezjBt/+wFjldJAUoF9LsX1AqeTHOVBJtHk=
+=IRJP
+-----END PGP SIGNATURE-----

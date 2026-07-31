@@ -1,0 +1,14 @@
+Origin: KodeBS
+Label: KodeBS
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Debian packages published by KodeBS
+Date: Fri, 31 Jul 2026 08:01:56 UTC
+MD5Sum:
+ 949c5500f32c001310d38cbca5dce9fd              647 main/binary-amd64/Packages
+ 58d1e32a0b6e1b7e7eedb2c6bfcc4741              446 main/binary-amd64/Packages.gz
+SHA256:
+ 0822ceb78e2a2cd0ef3e86a675aedc17defbfbcf504bdb79f7ed4258ea8d8a0e              647 main/binary-amd64/Packages
+ 88413b970c5a520059c571530c8b41176a871631c05a34e709e469ba0308fd3b              446 main/binary-amd64/Packages.gz
