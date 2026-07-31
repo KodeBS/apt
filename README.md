@@ -74,7 +74,9 @@ sudo apt update
 
 ## How this repository is maintained
 
-**Nothing here is edited by hand.** Every file is generated.
+**This README is the only file written by hand.** Everything the repository
+actually serves is generated, and appears the first time a version is tagged —
+which is why a fresh repository looks empty.
 
 Each source project owns its own packaging and pushes here from its release
 workflow: it builds the `.deb`, then runs `scripts/publish-apt.sh` to fold the
