@@ -8,26 +8,26 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Debian packages published by KodeBS
-Date: Fri, 31 Jul 2026 08:01:56 UTC
+Date: Sat, 01 Aug 2026 18:08:38 UTC
 MD5Sum:
- 949c5500f32c001310d38cbca5dce9fd              647 main/binary-amd64/Packages
- 58d1e32a0b6e1b7e7eedb2c6bfcc4741              446 main/binary-amd64/Packages.gz
+ 5c0da77de553a5707e5741c87ed0eb4a             1316 main/binary-amd64/Packages
+ 07ebef297aa2fc541df9e9786d96393a              587 main/binary-amd64/Packages.gz
 SHA256:
- 0822ceb78e2a2cd0ef3e86a675aedc17defbfbcf504bdb79f7ed4258ea8d8a0e              647 main/binary-amd64/Packages
- 88413b970c5a520059c571530c8b41176a871631c05a34e709e469ba0308fd3b              446 main/binary-amd64/Packages.gz
+ 22551ebf233d29c3f2eae4c033b1cc9ac385aaee5fcbfb81b12d0d1f03cadcc4             1316 main/binary-amd64/Packages
+ fd91c812c3216f432cdbd9c959d2b87c5995bbdb75c52aa0c444af43de08e11e              587 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE2hMxpKf3OOUwxPzIf/7DaRzDqS0FAmpsVnQACgkQf/7DaRzD
-qS08yw//XMvREPOKCI+txm6G1EE/7gB1LigP5gc7BiG9CxFgCkLFqcM3NXS4C/3o
-vENBzjHB0IC0D7NjSl1ZGVxO9eeWLAVqXFz3W91mqHdpNgHYZ4oU32R3H46CQL0+
-jz/ROBYlKdF8Q8TUByU0MBMjDFML6vBeo4u8300SFEhUxOujmDcZByaLaG9Qd5yg
-99PGY5R3C8gGzmlpWcSRyJzsDNO0OpfzByLhJxCA6XkBPWYMGgr85XXpvvlJrZxr
-iicavTG0Toozx6LgzCOoaLPoz12ywalnNBOq2q1ImefC6KnCj2VLn9W+7kw7b8Dr
-F/LuVtb2rUu6aABba5dafAB24Oby4c3xUPUkm7LDRgCcVq+JWFPrJox8Nvi2zcwT
-BxuK5Vp8JekpAkjoKwXS+MZPaucqscbvKudyzIkhaYZyC8rDM7tM7Xjg5v/WoEql
-/DaNXxqOSbSEuGksE4aDXd0tTvUOYlFrbV0oUI787j6Wt9YCKeHcUD0toq5wHWhi
-QZclMl5BIt3FHHGvy96//BoDEGMSOvO9LyN2hgsNwa63Vm6hPSB87rBp8IMMIQ83
-bVmYJxF/nxOr57wYZAk93jed2fFXKP1dTg/oQmvT4OkmLIHatF2LyLUGbaNkrIWm
-LjbFtZapXMCuJW3iOezjBt/+wFjldJAUoF9LsX1AqeTHOVBJtHk=
-=IRJP
+iQIzBAEBCgAdFiEE2hMxpKf3OOUwxPzIf/7DaRzDqS0FAmpuNiYACgkQf/7DaRzD
+qS2N6hAAj/OxCU0YpCVw/IGLxv60XSfk+/0Bf7y6ES5y3gsJweYg+oi1EUKhdgkt
+ms93Brta5G5mU+z4Jw57AjwilRmDUdMuQ+okOGVI25/u7ZxTAGLFFFoovgEt5KUm
+HFk6IejGEhdcdyc0HUgjUgCzHHGXBf1zqVd+1/fqh3TocJqSzejqku2agHUKR3zw
+/aSMrKJzRI86A0f4zWmp/HDq7IYpL5qrB9LmioScWDWih+gJsOaaWbOJvGuu8GoZ
+84rkamJqp6H2DCrEh75PmEkqNF2VBR58dmKl6ey8wv6TdnSpHxQonPQhZp5uiAsh
+I0+Ip2Dvm+loGbZH252yCr0BsDrHukL26PctSw4KUh53HjWoprRAKY3eRf6IsuOV
+Fm8uMlW/FXhaHofJxKeE37s8s52ebw2s8CS3JuitNRzBfkJC1xBnOZdfE4gxOM0Y
+8zfpsFlZcIG2XWdRQNsEIg/LETCwKUtL1RnpU6QQAN3/kFIQmRMr+Y0iID4JpxpL
+mGztOdzOT/kf1vPr9okHMzDYcfkOPNDaAJZpaLX5zf+mVLtHpBZDBV/Q3qqwIiF+
+AmUpJRVBxCPcLFjUwxqPtmTvcm1+AFWxA6FVwPlq3ChRawLnXD+ECQvQ3LJf1lue
+BQfP7woF+RHCngpzfJY5N8YwVZd/NS+40bFGp8bxbo0T1ono0v8=
+=zNDy
 -----END PGP SIGNATURE-----
