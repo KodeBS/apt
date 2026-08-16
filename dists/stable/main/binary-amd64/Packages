@@ -32,3 +32,20 @@ Homepage: https://github.com/KodeBS/server-manager
 Description: A lightweight Ubuntu desktop application for managing local servers and developer tooling
 License: MIT
 
+Package: kodebs-server-manager
+Version: 0.0.7-1
+Architecture: amd64
+Maintainer: KodeBS <contact@kodebs.com>
+Installed-Size: 15162
+Depends: libgtk-3-0t64 | libgtk-3-0, libwebkit2gtk-4.1-0, pkexec | policykit-1
+Filename: pool/main/k/kodebs-server-manager/kodebs-server-manager_0.0.7-1_amd64.deb
+Size: 8086100
+MD5sum: 4f585628047c5aea297f3cd0aa924cac
+SHA1: a79c387fb2e4e2c407c49f57bccb8cfcf8cdb736
+SHA256: aef8635fd595af1c93a3c83e6fea090746c703b479e86fa960b958e5427f6822
+Section: default
+Priority: extra
+Homepage: https://github.com/KodeBS/server-manager
+Description: A lightweight Ubuntu desktop application for managing local servers and developer tooling
+License: MIT
+
