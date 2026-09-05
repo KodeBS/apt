@@ -1,0 +1,17 @@
+Package: kodebs-homelab
+Version: 0.0.9-1
+Architecture: amd64
+Maintainer: KodeBS <contact@kodebs.com>
+Installed-Size: 14764
+Depends: libgtk-3-0t64 | libgtk-3-0, libwebkit2gtk-4.1-0, pkexec | policykit-1
+Filename: pool/main/k/kodebs-homelab/kodebs-homelab_0.0.9-1_amd64.deb
+Size: 7953846
+MD5sum: 4e0af87e6decd771e0f062cfeac30b9c
+SHA1: 8ce92a12cc3d4a7c3ee73dfcd88c47bd0d58525d
+SHA256: 09019b26350adf6d7da3f7b7749a5ff9a57a814cfe399bb1df1355e2983a0e39
+Section: default
+Priority: extra
+Homepage: https://github.com/KodeBS/homelab
+Description: A lightweight Ubuntu desktop app for running one machine as a home server
+License: MIT
+
