@@ -45,17 +45,17 @@ sudo apt update
 
 ## What is in here
 
-### KodeBS Server Manager
+### KodeBS Homelab
 
-Manage a local server from one place — system monitoring, Docker, ports, Nginx,
-the firewall, media sharing over its own Wi-Fi, a direct LAN link between two
-machines, and background tasks.
+A lightweight Ubuntu desktop app for running one machine as a home server —
+system monitoring, Docker, ports, Nginx, the firewall, media sharing over its
+own Wi-Fi, a direct LAN link between two machines, and background tasks.
 
 ```bash
-sudo apt install kodebs-server-manager
+sudo apt install kodebs-homelab
 ```
 
-[Source and documentation](https://github.com/KodeBS/server-manager)
+[Source and documentation](https://github.com/KodeBS/homelab)
 
 ---
 
@@ -106,4 +106,4 @@ The signing key's private half lives in the publishing project's Actions secrets
 and nowhere else.
 
 Currently published from:
-[KodeBS/server-manager](https://github.com/KodeBS/server-manager).
+[KodeBS/homelab](https://github.com/KodeBS/homelab).
