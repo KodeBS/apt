@@ -5,10 +5,10 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Debian packages published by KodeBS
-Date: Wed, 23 Sep 2026 07:19:22 UTC
+Date: Tue, 06 Oct 2026 04:08:58 UTC
 MD5Sum:
- aacf74dc92daf7dcbe2934e88650651c             6035 main/binary-amd64/Packages
- 4eb4ad73f71bd91e3eb06756a3a54410             1396 main/binary-amd64/Packages.gz
+ 7c9b404d273bc37628d61c82a42b816f             6752 main/binary-amd64/Packages
+ 13a4157aaa34ac55261a36f255cabb4c             1501 main/binary-amd64/Packages.gz
 SHA256:
- 81c2d6a6ff97d32100ea4ffa09d6e4e4d4b81ad92402d1cb7691904dfe95d71e             6035 main/binary-amd64/Packages
- 3b53a7e8917f59ce23f8e22a2185a59c5cf5f427aece22eef0bbce6f4247ec9d             1396 main/binary-amd64/Packages.gz
+ c6fb6b017581f11a8628a6f86d92b8575de62dabb8ed502eb969efad8a40ecc2             6752 main/binary-amd64/Packages
+ 57a20dcd924baef10292dc9cf56c20f1955192e7206c8673ff5fc93e97d8e3f0             1501 main/binary-amd64/Packages.gz
