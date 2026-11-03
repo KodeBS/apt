@@ -8,26 +8,26 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Debian packages published by KodeBS
-Date: Tue, 06 Oct 2026 04:08:58 UTC
+Date: Tue, 03 Nov 2026 02:04:57 UTC
 MD5Sum:
- 7c9b404d273bc37628d61c82a42b816f             6752 main/binary-amd64/Packages
- 13a4157aaa34ac55261a36f255cabb4c             1501 main/binary-amd64/Packages.gz
+ ee6b029eb0b00e1ffd249609e9e60202             7469 main/binary-amd64/Packages
+ 3203a07a67bfbf6daf2b29345085716c             1613 main/binary-amd64/Packages.gz
 SHA256:
- c6fb6b017581f11a8628a6f86d92b8575de62dabb8ed502eb969efad8a40ecc2             6752 main/binary-amd64/Packages
- 57a20dcd924baef10292dc9cf56c20f1955192e7206c8673ff5fc93e97d8e3f0             1501 main/binary-amd64/Packages.gz
+ 7cc5fa08ff4980b07712922825256f37782e0486df4ee4e06cfe355bdb77c97c             7469 main/binary-amd64/Packages
+ a5b3b6d3a19923aad6111a4d7b2934c2f6ddb0262b326e7f1d688fbf2d7d6e4c             1613 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE2hMxpKf3OOUwxPzIf/7DaRzDqS0FAmrEdFoACgkQf/7DaRzD
-qS06Kg//asEUVuJR3ta0EdxdLDMuPHFQI8aiJAw96wkOuktS6YB0wmAqTj3NmqaF
-Wme7VCFmvUCF/74cpJI2cFlGJOW9xtcLv1d0KzrYCUPMYQ6AwccF8CvD/5YtCoO9
-diPYTXONmDZDK8AhcThwh9EtTLG4i/x/+el70Mi5rQBQDCVEdWQzF+hMeNrlAn89
-/NDPUG0fB7NDxXlJBMhDatiBCfOXvU7nQmp+C+s3hhJiDmimFaNhQAtn1EFauFYp
-5ALpZPhihsv3iU0dsiCQHjVJ4cWZt6zLm0vCgE8l5KZs0GJ6XEgn5CH2t3uV543m
-ngeAdHOsnMEnL2+px+L7iDCRPMz+5aICgVUF48eXBodXZfqc5eOH4uyvy2bsD5SO
-YttyzPMmj16XhPm4mDmyjlqkdJXt4JTbPYCDcCXtu9tefv83W+nr/dTn7uNrLUGt
-CkmnIGsdYbcLdoyL1TBqmaK3q4T+iQp3AQfqArAs/OFxs5MZgTdGXuXog8MiwwlU
-5B6ZiiAIFe7B6iqx4cioEOm9ok8yB0fFk1ZLhYXMtl8668aQvjqSHm4FKZQAmlM6
-wIsKVKfFsiPdJqczKblLQFJnCTzuZO78SBoMAdbFhQ8jC7+W7bm0sWW5GSvlHRsH
-FWo3QyOOzTMBHL0nFSXJ2YAKBaVeFW81nLUy2Z7xHvc08hPvqyE=
-=8hHw
+iQIzBAEBCgAdFiEE2hMxpKf3OOUwxPzIf/7DaRzDqS0FAmrpQUkACgkQf/7DaRzD
+qS0qFg/9Hrf5oA7/f6aW/+M3No78s7F+z3//n9Ssim7oN4QFw6J+83VDUK3V3ymk
+2g6DvD/EtbHrqc/4g0Rzgk9G8mB8QkN9XaabM+HGN3ynTfJeFIPWgIkXSTlY+COc
+shgHuT0Kg77PHrmVKHp4dg1gGmR+OlZ3tyRbexvIU1sp7E94Rfhe+RZAqFAVN5N9
+Ww7nNAJdAdN79LzZJxzf3vrTbghXswvv0PEdPqjonEaG/qLcvZpcIh/Gr7kIVLzZ
+lsbH4qLHAs1PEjQH0VtGkoz6TRpGA5bBpZ1PiwmiGXxNSsVbYgUZWrGS0DZigaca
+R3C8nl7FBTqZORgRMCwVoHqF0TmXvcyt2iSsxP4AXPmDaoBAdyo4Fm4kZ5wJSigN
+JbFkKZiksvTD/0b3cMyKksUeE2VpyWcrz/toIl5J5UCBafwZIn3An7P1a0vprRFR
+adpvL62o/0OIcgFoXFqxABMn4Gv25yx+COWcrAfC3nr2OWsyd6iDfLheifqFB0l6
+sEScA+rpTyufeIMxP3dglSO+HoaxxoxBil1OY6cKEa4/7kV9rvUHUSqZeGUWTfIZ
+ki7Nrdyw8QFZ68y7tDHRzPCbH1xL0UhqYSevY9ithgUgn6+b9yMw1TLkCCjuTEet
+WIuZjDAJAT+PRMtGvQ9xJmXvBTsZpGysciKHk+zK6dUWX2Y1N6g=
+=4lCH
 -----END PGP SIGNATURE-----

@@ -177,3 +177,21 @@ Homepage: https://github.com/KodeBS/homelab
 Description: A lightweight Ubuntu desktop app for running one machine as a home server
 License: MIT
 
+Package: kodebs-homelab
+Version: 0.1.9-1
+Architecture: amd64
+Maintainer: KodeBS <contact@kodebs.com>
+Installed-Size: 53071
+Depends: libgtk-3-0t64 | libgtk-3-0, libwebkit2gtk-4.1-0, pkexec | policykit-1
+Recommends: smartmontools, tesseract-ocr, tesseract-ocr-vie, tesseract-ocr-eng, zbar-tools
+Filename: pool/main/k/kodebs-homelab/kodebs-homelab_0.1.9-1_amd64.deb
+Size: 22769598
+MD5sum: 630dbaad11aa5759b0fab2b13a5a734e
+SHA1: cfabd1f4d24ccb2adc4b14a5c6cd898c664a31d2
+SHA256: 2cfdb6d76e2436ba745e992df10ac0fdd214b2323734e9a5003bd0454264ee97
+Section: default
+Priority: extra
+Homepage: https://github.com/KodeBS/homelab
+Description: A lightweight Ubuntu desktop app for running one machine as a home server
+License: MIT
+
